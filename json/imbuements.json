@@ -1,0 +1,859 @@
+{
+  "imbuements": {
+    "scorch": {
+      "name": "Scorch",
+      "display_name": "Fire Damage",
+      "image": "Basic_Scorch.png",
+      "imbue_slots": {
+        "description": "Melee weapons only",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Fiery Heart",
+          "amount" : 25,
+          "display_name" : "Fiery Hearts",
+          "image" : "Fiery_Heart.gif",
+          "effect" : "10% of Physical Damage is converted to Fire Damage"
+        },
+        "tier_2": {
+          "name" : "Green Dragon Scale",
+          "amount" : 5,
+          "display_name" : "Green Dragon Scales",
+          "image" : "Green_Dragon_Scale.gif",
+          "effect" : "25% of Physical Damage is converted to Fire Damage"
+        },
+        "tier_3": {
+          "name" : "Demon Horn",
+          "amount" : 5,
+          "display_name" : "Demon Horns",
+          "image" : "Demon_Horn.gif",
+          "effect" : "50% of Physical Damage is converted to Fire Damage"
+        }
+      },
+      "important_notes": ""
+    },
+    "venom": {
+      "name": "Venom",
+      "display_name": "Earth Damage",
+      "image": "Basic_Venom.png",
+      "imbue_slots": {
+        "description": "Melee weapons only",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Swamp Grass",
+          "amount" : 25,
+          "display_name" : "Swamp Grass",
+          "image" : "Swamp_Grass.gif",
+          "effect" : "10% of Physical Damage is converted to Earth Damage"
+        },
+        "tier_2": {
+          "name" : "Poisonous Slime",
+          "amount" : 20,
+          "display_name" : "Poisonous Slimes",
+          "image" : "Poisonous_Slime.gif",
+          "effect" : "25% of Physical Damage is converted to Earth Damage"
+        },
+        "tier_3": {
+          "name" : "Slime Heart",
+          "amount" : 2,
+          "display_name" : "Slime Hearts",
+          "image" : "Slime_Heart.gif",
+          "effect" : "50% of Physical Damage is converted to Earth Damage"
+        }
+      },
+      "important_notes": ""
+    },
+    "frost": {
+      "name": "Frost",
+      "display_name": "Ice Damage",
+      "image": "Basic_Frost.png",
+      "imbue_slots": {
+        "description": "Melee weapons only",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Frosty Heart",
+          "amount" : 25,
+          "display_name" : "Frosty Hearts",
+          "image" : "Frosty_Heart.gif",
+          "effect" : "10% of Physical Damage is converted to Ice Damage"
+        },
+        "tier_2": {
+          "name" : "Seacrest Hair",
+          "amount" : 10,
+          "display_name" : "Seacrest Hair",
+          "image" : "Seacrest_Hair.gif",
+          "effect" : "25% of Physical Damage is converted to Ice Damage"
+        },
+        "tier_3": {
+          "name" : "Polar Bear Paw",
+          "amount" : 5,
+          "display_name" : "Polar Bear Paws",
+          "image" : "Polar_Bear_Paw.gif",
+          "effect" : "50% of Physical Damage is converted to Ice Damage"
+        }
+      },
+      "important_notes": ""
+    },
+    "electrify": {
+      "name": "Electrify",
+      "display_name": "Energy Damage",
+      "image": "Basic_Electrify.png",
+      "imbue_slots": {
+        "description": "Melee weapons only",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Rorc Feather",
+          "amount" : 25,
+          "display_name" : "Rorc Feathers",
+          "image" : "Rorc_Feather.gif",
+          "effect" : "10% of Physical Damage is converted to Energy Damage"
+        },
+        "tier_2": {
+          "name" : "Peacock Feather Fan",
+          "amount" : 10,
+          "display_name" : "Peacock Feather Fans",
+          "image" : "Peacock_Feather_Fan.gif",
+          "effect" : "25% of Physical Damage is converted to Energy Damage"
+        },
+        "tier_3": {
+          "name" : "Energy Vein",
+          "amount" : 1,
+          "display_name" : "Energy Vein",
+          "image" : "Energy_Vein.gif",
+          "effect" : "50% of Physical Damage is converted to Energy Damage"
+        }
+      },
+      "important_notes": ""
+    },
+    "reap": {
+      "name": "Reap",
+      "display_name": "Death Damage",
+      "image": "Basic_Reap.png",
+      "imbue_slots": {
+        "description": "Melee weapons only",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Piles of Grave Earth",
+          "amount" : 25,
+          "display_name" : "Piles of Grave Earth",
+          "image" : "Pile_of_Grave_Earth.gif",
+          "effect" : "10% of Physical Damage is converted to Death Damage"
+        },
+        "tier_2": {
+          "name" : "Demonic Skeletal Hand",
+          "amount" : 20,
+          "display_name" : "Demonic Skeletal Hands",
+          "image" : "Demonic_Skeletal_Hand.gif",
+          "effect" : "25% of Physical Damage is converted to Death Damage"
+        },
+        "tier_3": {
+          "name" : "Petrified Scream",
+          "amount" : 5,
+          "display_name" : "Petrified Screams",
+          "image" : "Petrified_Scream.gif",
+          "effect" : "50% of Physical Damage is converted to Death Damage"
+        }
+      },
+      "important_notes": ""
+    },
+    "vampirism": {
+      "name": "Vampirism",
+      "display_name": "Life Leech",
+      "image": "Basic_Vampirism.png",
+      "imbue_slots": {
+        "description": "All Weapons and Armors",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs",
+          "wands",
+          "rods",
+          "bows",
+          "armors"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Vampire Teeth",
+          "amount" : 25,
+          "display_name" : "Vampire Teeth",
+          "image" : "Vampire_Teeth.gif",
+          "effect" : "Converts 5% of damage to Hitpoints with a chance of 100%"
+        },
+        "tier_2": {
+          "name" : "Bloody Pincers",
+          "amount" : 15,
+          "display_name" : "Bloody Pincers",
+          "image" : "Bloody_Pincers.gif",
+          "effect" : "Converts 10% of damage to Hitpoints with a chance of 100%"
+        },
+        "tier_3": {
+          "name" : "Piece of Dead Brain",
+          "amount" : 5,
+          "display_name" : "Piece of Dead Brains",
+          "image" : "Piece_of_Dead_Brain.gif",
+          "effect" : "Converts 25% of damage to Hitpoints with a chance of 100%"
+        }
+      },
+      "important_notes": "Life Leech will leech the true % of your total life leech on a single target. Although, when it comes to AOE damage (such as an Avalanche rune which hits more than 1 monster), the first monster hit will leech your total Life Leech %, and the subsequent monsters hit will leech 10% of that. For example, if you user an avalanche rune that does 100 damage to 10 monsters, and you have 10% life leech, you would receive 10 life from 1 monster, and 1 life from the remaining 9 monsters, so an additional 9 life, yielding a total of 19 life leeched. So, ALWAYS try to hit your auto-attack, before using your spell/rune to maximize your Life Leech."
+    },
+    "void": {
+      "name": "Void",
+      "display_name": "Mana Leech",
+      "image": "Basic_Void.png",
+      "imbue_slots": {
+        "description": "All Weapons and Helmets",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs",
+          "wands",
+          "rods",
+          "bows",
+          "helmets"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Rope Belt",
+          "amount" : 25,
+          "display_name" : "Rope Belts",
+          "image" : "Rope_Belt.gif",
+          "effect" : "Converts 3% of damage to Mana with a chance of 100%"
+        },
+        "tier_2": {
+          "name" : "Silencer Claw",
+          "amount" : 25,
+          "display_name" : "Silencer Claws",
+          "image" : "Silencer_Claws.gif",
+          "effect" : "Converts 5% of damage to Mana with a chance of 100%"
+        },
+        "tier_3": {
+          "name" : "Some Grimeleech Wings",
+          "amount" : 5,
+          "display_name" : "Some Grimeleech Wings",
+          "image" : "Some_Grimeleech_Wings.gif",
+          "effect" : "Converts 8% of damage to Mana with a chance of 100%"
+        }
+      },
+      "important_notes": "Mana Leech will leech the true % of your total mana leech on a single target. Although, when it comes to AOE damage (such as an Avalanche rune which hits more than 1 monster), the first monster hit will leech your total Mana Leech %, and the subsequent monsters hit will leech 10% of that. For example, if you use an avalanche rune that does 100 damage to 10 monsters, and you have 10% mana leech, you would receive 10 mana from 1 monster, and 1 mana from the remaining 9 monsters, so an additional 9 mana, yielding a total of 19 mana leeched. So, ALWAYS try to hit your auto-attack, before using your spell/rune to maximize your Mana Leech."
+    },
+    "strike": {
+      "name": "Strike",
+      "display_name": "Critical Hit",
+      "image": "Basic_Strike.png",
+      "imbue_slots": {
+        "description": "Melee Weapons, Bows and some special wands and rods*",
+        "slots": [
+          "axes",
+          "swords",
+          "clubs",
+          "wands",
+          "rods",
+          "bows",
+          "crossbows"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Protective Charm",
+          "amount" : 20,
+          "display_name" : "Protective Charms",
+          "image" : "Protective_Charm.gif",
+          "effect" : "Raises critical hit damage by 15% and critical hit chance by 10%"
+        },
+        "tier_2": {
+          "name" : "Sabretooth",
+          "amount" : 25,
+          "display_name" : "Sabreteeth",
+          "image" : "Sabretooth.gif",
+          "effect" : "Raises critical hit damage by 25% and critical hit chance by 10%"
+        },
+        "tier_3": {
+          "name" : "Vexclaw Talon",
+          "amount" : 5,
+          "display_name" : "Vexclaw Talons",
+          "image" : "Vexclaw_Talon.gif",
+          "effect" : "Raises critical hit damage by 50% and critical hit chance by 10%"
+        }
+      },
+      "important_notes": "*Wands and rods imbuable with Strike are: Rod of Destruction (level 200), Wand of Destruction (level 200), Falcon Rod (level 300), Falcon Wand (level 300)."
+    },
+    "lich_shroud": {
+      "name": "Lich Shroud",
+      "display_name": "Death Protection",
+      "image": "Basic_Lich_Shroud.png",
+      "imbue_slots": {
+        "description": "All* Armors, Shields and Spellbooks",
+        "slots": [
+          "shields",
+          "spellbooks",
+          "armors"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Flask of Embalming Fluid",
+          "amount" : 25,
+          "display_name" : "Flask of Embalming Fluids",
+          "image" : "Flask_of_Embalming_Fluid.gif",
+          "effect" : "Reduces death damage by 2%"
+        },
+        "tier_2": {
+          "name" : "Gloom Wolf Fur",
+          "amount" : 20,
+          "display_name" : "Gloom Wolf Furs",
+          "image" : "Gloom_Wolf_Fur.gif",
+          "effect" : "Reduces death damage by 5%"
+        },
+        "tier_3": {
+          "name" : "Mystical Hourglasse",
+          "amount" : 5,
+          "display_name" : "Mystical Hourglasses",
+          "image" : "Mystical_Hourglass.gif",
+          "effect" : "Reduces death damage by 10%"
+        }
+      },
+      "important_notes": "*Except those which have native Death Protection. Also, Death protection is more valuable than any other, which is why these Imbuements' protection are lower than the other elemental protections."
+    },
+    "snake_skin": {
+      "name": "Snake Skin",
+      "display_name": "Earth Protection",
+      "image": "Basic_Snake_Skin.png",
+      "imbue_slots": {
+        "description": "All* Armors, Shields and Spellbooks",
+        "slots": [
+          "shields",
+          "spellbooks",
+          "armors"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Piece of Swampling Wood",
+          "amount" : 25,
+          "display_name" : "Pieces of Swampling Wood",
+          "image" : "Piece_of_Swampling_Wood.gif",
+          "effect" : "Reduces earth damage by 3%"
+        },
+        "tier_2": {
+          "name" : "Snake Skin",
+          "amount" : 20,
+          "display_name" : "Snake Skins",
+          "image" : "Snake_Skin.gif",
+          "effect" : "Reduces earth damage by 8%"
+        },
+        "tier_3": {
+          "name" : "Brimstone Fang",
+          "amount" : 10,
+          "display_name" : "Brimstone Fangs",
+          "image" : "Brimstone_Fangs.gif",
+          "effect" : "Reduces earth damage by 15%"
+        }
+      },
+      "important_notes": "*Except those which have native Earth Protection."
+    },
+    "dragon_hide": {
+      "name": "Dragon Hide",
+      "display_name": "Fire Protection",
+      "image": "Basic_Dragon_Hide.png",
+      "imbue_slots": {
+        "description": "All* Armors, Shields and Spellbooks",
+        "slots": [
+          "shields",
+          "spellbooks",
+          "armors"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Green Dragon Leather",
+          "amount" : 20,
+          "display_name" : "Green Dragon Leathers",
+          "image" : "Green_Dragon_Leather.gif",
+          "effect" : "Reduces fire damage by 3%"
+        },
+        "tier_2": {
+          "name" : "Blazing Bone",
+          "amount" : 10,
+          "display_name" : "Blazing Bones",
+          "image" : "Blazing_Bone.gif",
+          "effect" : "Reduces fire damage by 8%"
+        },
+        "tier_3": {
+          "name" : "Draken Sulphur",
+          "amount" : 5,
+          "display_name" : "Draken Sulphur",
+          "image" : "Draken_Sulphur.gif",
+          "effect" : "Reduces fire damage by 15%"
+        }
+      },
+      "important_notes": "*Except those which have native Fire Protection."
+    },
+    "quara_scale": {
+      "name": "Quara Scale",
+      "display_name": "Ice Protection",
+      "image": "Basic_Quara_Scale.png",
+      "imbue_slots": {
+        "description": "All* Armors, Shields and Spellbooks",
+        "slots": [
+          "shields",
+          "spellbooks",
+          "armors"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Winter Wolf Fur",
+          "amount" : 25,
+          "display_name" : "Winter Wolf Furs",
+          "image" : "Winter_Wolf_Fur.gif",
+          "effect" : "Reduces ice damage by 3%"
+        },
+        "tier_2": {
+          "name" : "Thick Fur",
+          "amount" : 15,
+          "display_name" : "Thick Furs",
+          "image" : "Thick_Fur.gif",
+          "effect" : "Reduces ice damage by 8%"
+        },
+        "tier_3": {
+          "name" : "Deepling Wart",
+          "amount" : 10,
+          "display_name" : "Deepling Warts",
+          "image" : "Deepling_Warts.gif",
+          "effect" : "Reduces ice damage by 15%"
+        }
+      },
+      "important_notes": "*Except those which have native Fire Protection."
+    },
+    "cloud_fabric": {
+      "name": "Cloud Fabric",
+      "display_name": "Energy Protection",
+      "image": "Basic_Cloud_Fabric.png",
+      "imbue_slots": {
+        "description": "All* Armors, Shields and Spellbooks",
+        "slots": [
+          "shields",
+          "spellbooks",
+          "armors"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Wyvern Talisman",
+          "amount" : 20,
+          "display_name" : "Wyvern Talismans",
+          "image" : "Wyvern_Talisman.gif",
+          "effect" : "Reduces energy damage by 3%"
+        },
+        "tier_2": {
+          "name" : "Crawler Head Plating",
+          "amount" : 20,
+          "display_name" : "Crawler Head Platings",
+          "image" : "Crawler_Head_Plating.gif",
+          "effect" : "Reduces energy damage by 8%"
+        },
+        "tier_3": {
+          "name" : "Wyrm Scale",
+          "amount" : 10,
+          "display_name" : "Wyrm Scales",
+          "image" : "Wyrm_Scale.gif",
+          "effect" : "Reduces energy damage by 15%"
+        }
+      },
+      "important_notes": "*Except those which have native Energy Protection."
+    },
+    "demon_presence": {
+      "name": "Demon Presence",
+      "display_name": "Holy Protection",
+      "image": "Basic_Demon_Presence.png",
+      "imbue_slots": {
+        "description": "All* Armors, Shields and Spellbooks",
+        "slots": [
+          "shields",
+          "spellbooks",
+          "armors"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Cultish Robe",
+          "amount" : 25,
+          "display_name" : "Cultish Robes",
+          "image" : "Cultish_Robe.gif",
+          "effect" : "Reduces holy damage by 3%"
+        },
+        "tier_2": {
+          "name" : "Cultish Mask",
+          "amount" : 25,
+          "display_name" : "Cultish Masks",
+          "image" : "Cultish_Mask.gif",
+          "effect" : "Reduces holy damage by 8%"
+        },
+        "tier_3": {
+          "name" : "Hellspawn Tail",
+          "amount" : 20,
+          "display_name" : "Hellspawn Tails",
+          "image" : "Hellspawn_Tail.gif",
+          "effect" : "Reduces holy damage by 15%"
+        }
+      },
+      "important_notes": "*Except those which have native Holy Protection."
+    },
+    "swiftness": {
+      "name": "Swiftness",
+      "display_name": "Walking Speed",
+      "image": "Basic_Swiftness.png",
+      "imbue_slots": {
+        "description": "Boots",
+        "slots": [
+          "boots"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Damselfly Wing",
+          "amount" : 15,
+          "display_name" : "Damselfly Wings",
+          "image" : "Damselfly_Wing.gif",
+          "effect" : "Raises walking speed by 10"
+        },
+        "tier_2": {
+          "name" : "Compass",
+          "amount" : 25,
+          "display_name" : "Compasses",
+          "image" : "Compass.gif",
+          "effect" : "Raises walking speed by 15"
+        },
+        "tier_3": {
+          "name" : "Waspoid Wing",
+          "amount" : 20,
+          "display_name" : "Waspoid Wings",
+          "image" : "Waspoid_Wing.gif",
+          "effect" : "Raises walking speed by 30"
+        }
+      },
+      "important_notes": "This imbuement's timer does not stop when you leave combat. It lasts for full 20 hours while having the boots equipped and being online, whether you are in combat or not."
+    },
+    "chop": {
+      "name": "Chop",
+      "display_name": "Axe Fighting",
+      "image": "Basic_Chop.png",
+      "imbue_slots": {
+        "description": "All Helmets and Axe Weapons",
+        "slots": [
+          "axes",
+          "helmets"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Orc Tooth",
+          "amount" : 20,
+          "display_name" : "Orc Teeth",
+          "image" : "Orc_Tooth.gif",
+          "effect" : "Raises axe fighting skill by 1"
+        },
+        "tier_2": {
+          "name" : "Battle Stone",
+          "amount" : 25,
+          "display_name" : "Battle Stones",
+          "image" : "Battle_Stone.gif",
+          "effect" : "Raises axe fighting skill by 2"
+        },
+        "tier_3": {
+          "name" : "Moohtant Horn",
+          "amount" : 20,
+          "display_name" : "Moohtant Horns",
+          "image" : "Moohtant_Horn.gif",
+          "effect" : "Raises axe fighting skill by 4"
+        }
+      },
+      "important_notes": ""
+    },
+    "slash": {
+      "name": "Slash",
+      "display_name": "Sword Fighting",
+      "image": "Basic_Slash.png",
+      "imbue_slots": {
+        "description": "All Helmets and Sword Weapons",
+        "slots": [
+          "swords",
+          "helmets"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Lion's Mane",
+          "amount" : 25,
+          "display_name" : "Lion's Manes",
+          "image" : "Lions_Mane.gif",
+          "effect" : "Raises sword fighting skill by 1"
+        },
+        "tier_2": {
+          "name" : "Mooh'tah Shell",
+          "amount" : 25,
+          "display_name" : "Mooh'tah Shells",
+          "image" : "Moohtah_Shell.gif",
+          "effect" : "Raises sword fighting skill by 2"
+        },
+        "tier_3": {
+          "name" : "War Crystal",
+          "amount" : 5,
+          "display_name" : "War Crystals",
+          "image" : "War_Crystal.gif",
+          "effect" : "Raises sword fighting skill by 4"
+        }
+      },
+      "important_notes": ""
+    },
+    "bash": {
+      "name": "Bash",
+      "display_name": "Club Fighting",
+      "image": "Basic_Bash.png",
+      "imbue_slots": {
+        "description": "All Helmets and Club Weapons",
+        "slots": [
+          "clubs",
+          "helmets"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Cyclops Toe",
+          "amount" : 20,
+          "display_name" : "Cyclops Toes",
+          "image" : "Cyclops_Toe.gif",
+          "effect" : "Raises club fighting skill by 1"
+        },
+        "tier_2": {
+          "name" : "Ogre Nose Ring",
+          "amount" : 15,
+          "display_name" : "Ogre Nose Rings",
+          "image" : "Ogre_Nose_Ring.gif",
+          "effect" : "Raises club fighting skill by 2"
+        },
+        "tier_3": {
+          "name" : "Warmaster's Wristguard",
+          "amount" : 10,
+          "display_name" : "Warmaster's Wristguards",
+          "image" : "Warmasters_Wristguards.gif",
+          "effect" : "Raises club fighting skill by 4"
+        }
+      },
+      "important_notes": ""
+    },
+    "precision": {
+      "name": "Precision",
+      "display_name": "Distance Fighting",
+      "image": "Basic_Precision.png",
+      "imbue_slots": {
+        "description": "All Helmets, Bows and Crossbows",
+        "slots": [
+          "bows",
+          "crossbows",
+          "helmets"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Elven Scouting Glass",
+          "amount" : 25,
+          "display_name" : "Elven Scouting Glasses",
+          "image" : "Elven_Scouting_Glass.gif",
+          "effect" : "Raises distance fighting skill by 1"
+        },
+        "tier_2": {
+          "name" : "Elven Hoof",
+          "amount" : 20,
+          "display_name" : "Elven Hoofs",
+          "image" : "Elven_Hoof.gif",
+          "effect" : "Raises distance fighting skill by 2"
+        },
+        "tier_3": {
+          "name" : "Metal Spike",
+          "amount" : 10,
+          "display_name" : "Metal Spikes",
+          "image" : "Metal_Spike.gif",
+          "effect" : "Raises distance fighting skill by 4"
+        }
+      },
+      "important_notes": ""
+    },
+    "blockade": {
+      "name": "Blockade",
+      "display_name": "Shielding",
+      "image": "Basic_Blockage.png",
+      "imbue_slots": {
+        "description": "All Helmets, Shields and Spellbooks",
+        "slots": [
+          "shields",
+          "spellbooks",
+          "helmets"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Piece of Scarab Shell",
+          "amount" : 20,
+          "display_name" : "Pieces of Scarab Shell",
+          "image" : "Piece_of_Scarab_Shell.gif",
+          "effect" : "Raises shielding skill by 1"
+        },
+        "tier_2": {
+          "name" : "Brimstone Shell",
+          "amount" : 25,
+          "display_name" : "Brimstone Shells",
+          "image" : "Brimstone_Shell.gif",
+          "effect" : "Raises shielding skill by 2"
+        },
+        "tier_3": {
+          "name" : "Frazzle Skin",
+          "amount" : 25,
+          "display_name" : "Frazzle Skins",
+          "image" : "Frazzle_Skin.gif",
+          "effect" : "Raises shielding skill by 4"
+        }
+      },
+      "important_notes": ""
+    },
+    "epiphany": {
+      "name": "Epiphany",
+      "display_name": "Magic Level",
+      "image": "Basic_Epiphany.png",
+      "imbue_slots": {
+        "description": "All Wands and mage-exclusive Helmets*",
+        "slots": [
+          "wands",
+          "rods",
+          "sorcerer helmets",
+          "druid helmets"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Elvish Talisman",
+          "amount" : 25,
+          "display_name" : "Elvish Talismans",
+          "image" : "Elvish_Talisman.gif",
+          "effect" : "Raises magic level skill by 1"
+        },
+        "tier_2": {
+          "name" : "Broken Shamanic Staff",
+          "amount" : 15,
+          "display_name" : "Broken Shamanic Staffs",
+          "image" : "Broken_Shamanic_Staff.gif",
+          "effect" : "Raises magic level skill by 2"
+        },
+        "tier_3": {
+          "name" : "Strand of Medusa Hair",
+          "amount" : 15,
+          "display_name" : "Strands of Medusa Hair",
+          "image" : "Strand_of_Medusa_Hair.gif",
+          "effect" : "Raises magic level skill by 4"
+        }
+      },
+      "important_notes": "*Mage-exclusive Helmets are helmets which can only be worn by Sorcerers or Druids. The only exception is Falcon Coif which can be worn by Knights and Paladins and can be imbued with Epiphany imbuements"
+    },
+    "featherweight": {
+      "name": "Featherweight",
+      "display_name": "Capacity",
+      "image": "Basic_Featherweight.png",
+      "imbue_slots": {
+        "description": "Backpacks",
+        "slots": [
+          "backpacks"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Fairy Wing",
+          "amount" : 20,
+          "display_name" : "Fairy Wings",
+          "image" : "Fairy_Wings.gif",
+          "effect" : "Raises capacity by 3%"
+        },
+        "tier_2": {
+          "name" : "Little Bowl of Myrrh",
+          "amount" : 10,
+          "display_name" : "Little Bowls of Myrrh",
+          "image" : "Little_Bowl_of_Myrrh.gif",
+          "effect" : "Raises capacity by 8%"
+        },
+        "tier_3": {
+          "name" : "Goosebump Leather",
+          "amount" : 5,
+          "display_name" : "Goosebump Leathers",
+          "image" : "Goosebump_Leather.gif",
+          "effect" : "Raises capacity by 15%"
+        }
+      },
+      "important_notes": "This imbuement's timer does not stop when you leave combat. It lasts for full 20 hours while having the backpack equipped and being online, whether you are in combat or not."
+    },
+    "vibrancy": {
+      "name": "Vibrancy",
+      "display_name": "Paralysis Deflection",
+      "image": "Basic_Vibrancy.png",
+      "imbue_slots": {
+        "description": "Boots",
+        "slots": [
+          "boots"
+        ]
+      },
+      "astral_sources": {
+        "tier_1": {
+          "name" : "Wereboar Hooves",
+          "amount" : 20,
+          "display_name" : "Wereboar Hooves",
+          "image" : "Wereboar_Hooves.gif",
+          "effect" : "Removes paralysis with a chance of 15%"
+        },
+        "tier_2": {
+          "name" : "Crystallized Anger",
+          "amount" : 15,
+          "display_name" : "Crystallized Angers",
+          "image" : "Crystallized_Anger.gif",
+          "effect" : "Removes paralysis with a chance of 25%"
+        },
+        "tier_3": {
+          "name" : "Quill",
+          "amount" : 5,
+          "display_name" : "Quills",
+          "image" : "Quill.gif",
+          "effect" : "Removes paralysis with a chance of 50%"
+        }
+      },
+      "important_notes": "Always deflects PvP paralysis upon additional paralyse attacks"
+    }
+  }
+}

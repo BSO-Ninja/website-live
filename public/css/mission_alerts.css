@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+#range {
+  width: 800px;
+  height: 700px;
+  overflow: hidden;
+  border: 1px solid black;
+  position: relative;
+  margin: auto;
+}
+#container {
+  position:absolute;
+  top:-800px;
+  left:-1520px;
+  width: 3040px;
+  height: 1600px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /*background-image: url(/public/images/mission_alerts/grass.png);*/
+}
+#map {
+  position: relative;
+  width: 1920px;
+  height: 1900px;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-image: url(/public/images/mission_alerts/grass.png);
+}
+#sidemenu {
+  z-index: 100;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: block;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#map img {
+  position: absolute !important;
+}

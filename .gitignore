@@ -1,0 +1,7 @@
+config_override.php
+MISC/*
+.idea/*
+.idea/workspace.xml
+*.iml
+.git/*
+.htaccess

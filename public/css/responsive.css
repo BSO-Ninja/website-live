@@ -1,0 +1,14 @@
+/* SMALLER SCREENS */
+@media only screen and (min-width:768px) and (max-width:1336px){
+  .container{width:100%;}
+}
+
+/* TABLET width 767px */
+@media only screen and (max-width:767px) {
+  .container{width:100%;}
+}
+
+/* MOBILE width 480px */
+@media only screen and (max-width:480px){
+  .container{width:100%;}
+}

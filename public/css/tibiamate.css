@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  width: 900px;
+  height: 750px;
+  background-image: url(/public/images/default/main_bg.png);
+}
+#main_content_wrapper {
+  margin: 13px 12px 13px 13px;
+  padding: 0px;
+  display: inline-block;
+  width: 875px;
+  height: 724px;
+}
+#main_top {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  width: 100%;
+  height: 72px;
+  background-image: url(/public/images/default/main_top_bg.png);
+}
